@@ -1,0 +1,176 @@
+*{
+	font-family: 'Poppins', sans-serif;
+	margin:0;
+	padding:0;
+}
+html{
+	scroll-behavior: smooth;
+}
+body{
+	background-color: #440606;
+	color: #fff;
+}
+a{
+	color:white;
+	text-decoration: none;
+}
+h1{
+	text-align: center;
+	margin-right: -22rem;
+	font-size: 36px;
+	margin-top: 45px;
+	margin-bottom: 20px;
+}
+header{
+	padding: 20px 0;
+	position:fixed;
+	background-color: black;
+	width: 100%;
+	top: 0;
+	z-index: 3;
+
+}
+section{
+	margin: 60px 0;
+}
+input, textarea{
+	width:100%;
+	padding: 10px;
+	margin: 5px 0;
+}
+:target{
+	scroll-margin-top:120px;
+}
+ /*classes e objetos*/
+
+ #linksobre{
+	 text-align: center;
+	 margin-left: -50Rem;
+ }
+ #header-logo{
+ 	max-width: 120px;
+ 	/*margin 0 auto*/
+ }
+ #header conteiner{
+	margin:0 10px;
+	list-style: none;
+	text-transform: uppercase;
+ }
+ .container{
+ 	width: 1170px;
+ 	margin:0 auto 0 auto;
+	padding: 10px 0 10px 0 ;
+ }
+.box-flex{
+ 	display:flex;
+	align-items: center;
+ 	justify-content: space-between;
+	
+ }
+ 
+ .flex-center{
+ 	display:flex;
+ }
+ 
+ .header-navbar ul li{
+ 	margin:0 10px;
+ 	list-style: none;
+ 	text-transform: uppercase;
+
+ }
+ .header-navbar ul li a:hover{
+ 	color: gold;
+ }
+ .header-social-media ul li{
+ 	margin: 0 10px;
+ 	list-style: none;
+
+ }
+ .header-social-media ul li a:hover{
+ 	color:aquamarine;
+ }
+ #image-about{
+ 	width: 30%;
+ }
+ #image-about img{
+ 	width: 100%;
+	padding-top: 100px;
+ }
+ #linkportifolio{
+	 margin-right: 1rem;
+ }
+ #about{
+ 	width:55%;
+	padding-left: 20px;
+ }
+ /*gallery*/
+ .gallery-wrap{
+ 	flex-wrap: wrap;;
+ }
+ .gallery-card{
+ 	width: 30%;
+ 	height: 400px;
+ 	border: solid 1px gray;
+ 	display: flex;
+ 	align-items: center;
+ 	justify-content: center;
+ 	flex-direction: column;
+ 	margin-bottom: 20px;
+ }
+ .gallery-img{
+ 	background-size: 100%;
+ 	background-position: center;
+ 	background-color: yellowgreen;
+ 	background-blend-mode: multiply;
+ 	transition: .6s;
+ }
+ .gallery-img:hover{
+ 	background-size: 120%;
+ 	background-color: white;
+
+ }
+ #card-1{
+ 	background-image: url(../images/images01.jpg);
+  }
+ #card-2{
+ 	background-image: url(../images/images02.jpg);
+ }
+ #card-3{
+ 	background-image: url(../images/images03.jpg);
+ }
+ #card-4{
+ 	background-image: url(../images/images04.jpg);
+ }
+ #card-5{
+ 	background-image: url(../images/images05.jpg);
+ }
+ #card-6{
+ 	background-image: url(../images/images06.jpg);
+ }
+ /*section contato*/
+#dados-contato{
+	width:45%;
+}
+#form{
+	width:45%;
+}
+.btn-submit{
+	width: 250px;
+	background-color: black;
+	color: #ffff;
+
+}
+.btn-submit:hover{
+	background-color: brown;
+}
+/*css responsivo*/
+@media screen and (max-width: 980px){
+	body{
+		background-color: blue;
+	}
+}
+@media screen and (max-width: 600px){
+	body{
+		background-color: red;
+	}
+}
